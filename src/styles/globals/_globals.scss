@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    padding-top: 70px;
+}
+.fov-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-80{
+    width: 80%;
+}
+
+
+@import './buttons';
