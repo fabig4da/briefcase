@@ -1,8 +1,10 @@
-// body{
-//     width: 100%;
-//     overflow: hidden;  
-// }
 @import './header';
+
+.app{
+    width: 100%;
+    overflow: hidden;
+}
+
 @import './portada';
 @import './templates';
 @import './technologies';

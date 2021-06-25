@@ -14,7 +14,7 @@ export const Portada = () => {
                 </div> */}
             </div>
             <div className="devices-img">
-                <img src={getLocalImages('res.png')?.default} alt="mobile" className="mobile" />
+                <img src={getLocalImages('res.png')} alt="mobile" className="mobile" />
             </div>
 
         </div>

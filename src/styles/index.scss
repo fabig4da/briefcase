@@ -2,5 +2,12 @@
 
 
 //screnn
-@import './screen/lgscreen/lgscreen';
 
+@media (min-width: 700px){
+    @import './screen/lgscreen/lgscreen';
+
+}
+@media (max-width: 699px){
+    @import './screen/mdscreen/mdscreen';
+
+}

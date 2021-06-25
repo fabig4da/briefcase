@@ -20,9 +20,8 @@ export const AnimationPack = ({cant}) => {
         
             {
                 (circles[0]) ? circles?.map((value, index)=>{
-                    console.log('value')
                     return <AnimateCircles key={index+'aa'}/>
-                }) : <h1>No data</h1>
+                }) : ''
                 
             }
             
