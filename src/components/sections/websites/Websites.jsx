@@ -1,12 +1,13 @@
 import React from 'react'
-import { getLocalImages } from '../../../helpers/helpers'
+import { getLocalImages, sectionIds } from '../../../helpers/helpers'
 
 export const Websites = () => {
     return (
-        <div className="web-sites w-100">
+        <div className="web-sites w-100" id={sectionIds.works}>
             <div className=" web-title">
                 <h2>WEBSITES</h2>
             </div>
+            <p className="gl-intro">The websites below are some of the </p>
             <div className="web-sites-container">
                 <div className="web-site-item">
                     <img src={getLocalImages('ieti.JPG')} alt=""/>

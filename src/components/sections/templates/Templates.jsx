@@ -1,12 +1,13 @@
 import React from 'react'
-import { getLocalImages } from '../../../helpers/helpers'
+import { getLocalImages, sectionIds } from '../../../helpers/helpers'
 
 export const Templates = () => {
     return (
-        <div className="templetes fov-center w-100">
+        <div className="templetes fov-center w-100" id={sectionIds.templates}>
             <div className=" tp-title">
                 <h2>Templates</h2>
             </div>
+            <p className="gl-intro">Here are some templates that I have created for different purpose</p>
             <div className="templetes-content flex-wrap gap">
                 <div className="tp-img">
                     <img src={getLocalImages('t1.png')} alt="" />

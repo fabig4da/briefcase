@@ -23,6 +23,19 @@
     width: 80%;
 }
 
+.alert-global-active{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden
+}
+
+.gl-intro{
+    width: 80%;
+    font-size: 1.2rem;
+    color: rgb(109, 109, 109);
+    font-weight: 300;
+    text-align: center;
+}
 
 @import './buttons';
 @import './cards/templates-card';

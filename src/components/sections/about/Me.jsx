@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { getLocalImages } from '../../../helpers/helpers'
+import { getLocalImages, sectionIds } from '../../../helpers/helpers'
 
 export const Me = () => {
     return (
-        <div className="about-me">
+        <div className="about-me" id={sectionIds.aboutME}>
             <div className="about-content">
                 <div className="me-img">
                     <img src={getLocalImages('perfil.png')} alt=""/>
